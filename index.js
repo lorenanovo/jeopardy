@@ -10,7 +10,7 @@ function Question(price,category,content,answer){
 }
 
 var question = new Question(0,"X","X","X");
-var timeleft = 10;
+var timeleft = 15;
 
 //var qa2 = new Question(200,"peliculas","Segundo apellido de Lorena Novo", "Avalos"); // Pregunta prueba
 var qa2 = new Question(200,"peliculas","Nombre de la película navideña protagonizada por Macaulay Culkin", "Home Alone / Mi Pobre Angelito");
@@ -91,7 +91,7 @@ for (var i = 0; i < numberNotes; i++) {
   });
 
   function buttonAnimation(currentKey) {
-    timeleft = 10;
+    timeleft = 15;
 var downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);
