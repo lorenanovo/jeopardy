@@ -12,33 +12,33 @@ function Question(price,category,content,answer){
 var question = new Question(0,"X","X","X");
 var timeleft = 10;
 
-var qa2 = new Question(200,"peliculas","Nombre de la película navideña protagonizada por Macaulay Culkin", "Home Alone / Mi Pobre Angelito");
 //var qa2 = new Question(200,"peliculas","Segundo apellido de Lorena Novo", "Avalos"); // Pregunta prueba
+var qa2 = new Question(200,"peliculas","Nombre de la película navideña protagonizada por Macaulay Culkin", "Home Alone / Mi Pobre Angelito");
 var qa4 = new Question(400,"peliculas","Nombre del actor de la película de el 'Grinch (2000)'", "Jim Carrey");
-var qa6 = new Question(600,"peliculas","Director de la película de Disney 'El Extraño Mundo de Jack' / The Nightmare Before Christmas", "Tim Burton");
-var qa8 = new Question(800,"peliculas","Nombre del personaje de Cameron Diaz en 'The Holiday'", "Amanda Woods");
+var qa6 = new Question(600,"peliculas","Película donde se aparecen tres espíritus de navidad a un señor avaro y amargado", "A Christmas Carol / Los fantasmas de Scrooge");
+var qa8 = new Question(800,"peliculas","Director de la película de Disney 'El Extraño Mundo de Jack' / The Nightmare Before Christmas", "Tim Burton");
 var qa10 = new Question(1000,"peliculas","Nombre del personaje de Will Ferrell en 'Elf'", "Buddy Hobbs");
 
-var qb2 = new Question(200,"musica","Nombre de la cantante que interpreta 'All I Want For Christmas Is You'", "Mariah Carey");
-var qb4 = new Question(400,"musica","Nombre del cantante canadiense que comunmente se asocia con canciones navideñas", "Michael Buble");
-var qb6 = new Question(600,"musica","Nombre de la canción navideña del grupo de los 80s 'Wham!'", "Last Christmas");
-var qb8 = new Question(800,"musica","Nombre de la canción navideña que bailan en 'Chicas Pesadas'", "Jingle Bell Rock");
+var qb2 = new Question(200,"musica","Nombre de ex de Luismi que interpreta 'All I Want For Christmas Is You'", "Mariah Carey");
+var qb4 = new Question(400,"musica","Nombre de la canción que tiene esta letra 'Si me ven, si me ven, voy camino de Belén'","Mi Burrito Sabanero");
+var qb6 = new Question(600,"musica","Nombre del cantante canadiense que comunmente se asocia con canciones navideñas", "Michael Buble");
+var qb8 = new Question(800,"musica","Nombre de la canción navideña del grupo de los 80s 'Wham!'", "Last Christmas");
 var qb10 = new Question(1000,"musica","Completa la frase en la canción Noche de Paz 'Ni los ángeles quieren cantar para...'", "no despertar al Señor");
 
-var qc2 = new Question(200,"baby","Lugar de nacimiento de Jesus", "Belen");
+var qc2 = new Question(200,"baby","Lugar de nacimiento de Jesus", "Belén");
 var qc4 = new Question(400,"baby","Nombre de los tres Reyes Magos", "Melchor, Gaspar y Baltasar");
 var qc6 = new Question(600,"baby","Nombre del recipiente en el que pusieron a Jesús al nacer, donde también comen los animales", "Pesebre");
 var qc8 = new Question(800,"baby","Nombre del tiempo de oración y de reflexión caracterizado por la espera vigilante", "Adviento");
 var qc10 = new Question(1000,"baby","Día y mes en que se celebra la Epifanía del Señor", "6 de enero");
 
-var qd2 = new Question(200,"comida","Bebida caliente tradicional mexicana que se sirve en las posadas", "Ponche");
-var qd4 = new Question(400,"comida","Ingrediente especial para las galletas icónicas navideñas", "Jengibre");
-var qd6 = new Question(600,"comida","Sabor principal del bastón navideño (candy cane)", "Menta");
-var qd8 = new Question(800,"comida","Ave que se utiliza especialmente para el platillo principal navideño", "Pavo");
-var qd10 = new Question(1000,"comida","Nombre de la plantaq que es el ingrediente principal del 'revoltijo'", "Romeritos");
+var qd2 = new Question(200,"novo","Ciudad donde viven Gabriel y Pablo", "Barcelona");
+var qd4 = new Question(400,"novo","Nieto mas chico de la familia Vallarta Novo", "Marcelo");
+var qd6 = new Question(600,"novo","Cumpleaños de Mau chico y Karla", "25 de julio");
+var qd8 = new Question(800,"novo","Primeros dos nombres del papá de Marisa Novo", "Jose Alfredo");
+var qd10 = new Question(1000,"novo","Nombre del tío Novo que vivió con la familia Vallarta Novo", "Gerardo");
 
 var qe2 = new Question(200,"cultura","Objeto que se prende cuando 'se pide Posada'", "Velas");
-var qe4 = new Question(400,"cultura","Lugar de residencia de Santa Claus", "Polo Norte");
+var qe4 = new Question(400,"cultura","Objeto que lleva Santa Claus a los niños malos", "Carbón");
 var qe6 = new Question(600,"cultura","Cantidad de picos que tiene la piñata tradicional en las posadas", "Siete");
 var qe8 = new Question(800,"cultura","Nombre del Santo que originario de la historia de Santa Claus", "San Nicolás de Bari");
 var qe10 = new Question(1000,"cultura","Nombra uno de los renos de Santa que no sea Rodolfo", "Brioso/Danzarín/Saltarín/Bromista/Cometa/Cupido/Trueno/Relámpago");
@@ -46,7 +46,7 @@ var qe10 = new Question(1000,"cultura","Nombra uno de los renos de Santa que no 
 var qf2 = new Question(200,"geo","Estación del año en la que se celebra Navidad en Brasil", "Verano");
 var qf4 = new Question(400,"geo","Ubicación de la residencia de Santa Claus", "Polo Norte");
 var qf6 = new Question(600,"geo","País donde comenzó la tradición de los Mercados Navideños", "Alemania");
-var qf8 = new Question(800,"geo","País donde se ubica Belén", "Cisjordania (Palestina)/Israel");
+var qf8 = new Question(800,"geo","País donde empezó la superstición de besarse debajo de muérdago para la buena suerte amorosa", "Inglaterra");
 var qf10 = new Question(1000,"geo","Ciudad francesa donde se celebra la Fete de Lumieres, para iluminar el paso de María en su peregrinación", "Lyon");
 
 for (var i = 0; i < numberNotes; i++) {
