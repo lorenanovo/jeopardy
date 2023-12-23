@@ -19,7 +19,7 @@ var qa6 = new Question(600,"peliculas","Película donde se aparecen tres espíri
 var qa8 = new Question(800,"peliculas","Director de la película de Disney 'El Extraño Mundo de Jack' / The Nightmare Before Christmas", "Tim Burton");
 var qa10 = new Question(1000,"peliculas","Nombre del personaje de Will Ferrell en 'Elf'", "Buddy Hobbs");
 
-var qb2 = new Question(200,"musica","Nombre de ex de Luismi que interpreta 'All I Want For Christmas Is You'", "Mariah Carey");
+var qb2 = new Question(200,"musica","Nombre de la ex de Luismi que interpreta 'All I Want For Christmas Is You'", "Mariah Carey");
 var qb4 = new Question(400,"musica","Nombre de la canción que tiene esta letra 'Si me ven, si me ven, voy camino de Belén'","Mi Burrito Sabanero");
 var qb6 = new Question(600,"musica","Nombre del cantante canadiense que comunmente se asocia con canciones navideñas", "Michael Buble");
 var qb8 = new Question(800,"musica","Nombre de la canción navideña del grupo de los 80s 'Wham!'", "Last Christmas");
